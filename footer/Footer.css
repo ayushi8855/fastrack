@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1350px;
+	margin:auto;
+
+}
+.row{
+	display: flex;
+	flex-wrap: wrap; 
+    
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    
+}
+.footer-col{
+   width: 17%;
+   padding: 0 15px;
+   
+}
+.footer-col h4{
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 700;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li{
+	color: #ffffff;
+	color: #bbbbbb;
+    padding: 7px 0px;
+}
+.footer-col ul li a:hover{
+	color: orangered;
+	
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: orangered;
+}
+.download{
+    width: 30%;
+}
+.download h4{
+    padding-top: 5px;  
+}
+.download div,a{
+    color: white;
+}
+.tandd{
+    display: flex;
+    margin-top: 15px;
+    padding: 10px;
+    margin-left: 20%;
+    justify-content: space-around;
+   
+}
+.tandd h6{
+    transition: all 0.5s ease;
+}
+.tandd h6:hover{
+	color: orangered;
+	
+}
+.hr{
+    background-color: #bbbbbb;
+    border: none;
+    height: 0.5px;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.appstore-playstore{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.store-icon{
+    height: 60px;
+    width: 95%;
+    
+}
+.icons-row{
+     display:  flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 90%;
+     height: 60px;
+     margin: 10px auto;border: 2px solid greenyellow;
+
+}
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+
+}
+
+
+
+
