@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {Button, ButtonGroup, Col, Container, DropdownButton, Row} from "react-bootstrap"
 import "./cart.css"
 import axios from "axios";
+import { Link } from 'react-router-dom';
 export const Cart = () => {
 
     const [detail,setdetail] = useState([])
@@ -210,7 +211,7 @@ const getdetail = async ()=>
     <Col><h6 className="save">-{dis}</h6></Col>
     </Row>
     <Row>
-      <Button variant="dark">PROCEED TO CHECKOUT</Button>
+     <Link to={"/procced"}><Button variant="dark">PROCEED TO CHECKOUT</Button></Link> 
     </Row>
     <Row>
       <Button variant="transparent">CONTINUE SHOPPING</Button>

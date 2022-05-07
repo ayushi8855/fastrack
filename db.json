@@ -1,27 +1,22 @@
 {
-    "item": [
-      {
-        "image": "https://staticimg.titan.co.in/Fastrack/Catalog/68024AP02_1.jpg?pView=pdp",
-        "title": "REFLEX SMART WATCH WITH SILICONE BLUE STRAP",
-        "your_price": 3995,
-        "total_price": 5995,
-        "dis": "(33% Off)",
-        "qty": 2,
-        "id": 1
-      },
-      {
-        "image": "https://staticimg.titan.co.in/Fastrack/Catalog/3277NM01_1.jpg?pView=pdp",
-        "title": "STUNNERS 3.0 BLACK DIAL METAL STRAP WATCH",
-        "your_price": 2595,
-        "total_price": 2595,
-        "dis": "(33% Off)",
-        "qty": 1,
-        "id": 2
-      }
-    ]
-  }
-  
-  
-  
-  
-  
+  "item": [
+    {
+      "image": "https://staticimg.titan.co.in/Fastrack/Catalog/68024AP02_1.jpg?pView=pdp",
+      "title": "REFLEX SMART WATCH WITH SILICONE BLUE STRAP",
+      "your_price": 3995,
+      "total_price": 5995,
+      "dis": "(33% Off)",
+      "qty": 3,
+      "id": 1
+    },
+    {
+      "image": "https://staticimg.titan.co.in/Fastrack/Catalog/3277NM01_1.jpg?pView=pdp",
+      "title": "STUNNERS 3.0 BLACK DIAL METAL STRAP WATCH",
+      "your_price": 2595,
+      "total_price": 2595,
+      "dis": "(33% Off)",
+      "qty": 1,
+      "id": 2
+    }
+  ]
+}
