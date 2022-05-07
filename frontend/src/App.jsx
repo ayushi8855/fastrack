@@ -7,7 +7,7 @@ import Signup  from './Pages/Signup/signup'
 import {Link, Route, Routes} from 'react-router-dom';
 import Checkoutpersonal from './Components/checkoutPersonaldet'
 import Orderreview from './Components/Orderreview'
-
+import Paymentpage from './Pages/Paymentpage/Paymentpage'
 export  const store = createContext(); 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
 <Route  path ="/checkout" element={<Checkout/>}></Route>
 <Route path='/checkout/form' element={<Checkoutpersonal/>}></Route>
 <Route path ="/checkout/orderrev" element={<Orderreview/>}></Route>
+<Route path="/checkout/payment" element ={<Paymentpage/>}></Route>
      </Routes>
        
     </div>
