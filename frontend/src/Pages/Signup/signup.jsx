@@ -27,7 +27,7 @@ import "./signup.css"
      e.preventDefault();
   
 
- axios.post("http://localhost:5000/auth",data1)
+ axios.post("https://fastrackbackend.herokuapp.com/auth",data1)
  
  .then(response =>{
      alert(response.data)

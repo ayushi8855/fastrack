@@ -37,7 +37,7 @@ const submitHandler = (e) =>{
  e.preventDefault();
 
 
-axios.post("http://localhost:5000/checkout",data1)
+axios.post("https://fastrackbackend.herokuapp.com/checkout",data1)
 
 .then(response =>{
  

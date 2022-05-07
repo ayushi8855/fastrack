@@ -16,7 +16,7 @@ const[pin,setpin] = useState()
 const [state,setstate] = useState()
 const [country,setcountry] = useState()
     
- axios.get("http://localhost:5000/addressdet").then(res=>{
+ axios.get("https://fastrackbackend.herokuapp.com/addressdet").then(res=>{
    console.log(res.data)
    var l=res.data.length
    setfirstname(res.data[l-1].firstname)

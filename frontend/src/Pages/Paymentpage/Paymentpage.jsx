@@ -52,7 +52,7 @@ redirected to our partner site to process this order.</h4>
 
 </div>
 
-<div  clasName="paybut" >
+<div  className="paybut" >
 <button  style={{"width":"200px",'marginLeft':"200px"}} > PAY FOR YOUR ORDER</button>
 </div>
 <h5 style={{"color":"GrayText" ,"paddingLeft":"30px"}}>By placing the order, you have read and agreed the  Terms and Conditions and Privacy Policy of Fastrack.in</h5>
@@ -98,5 +98,6 @@ redirected to our partner site to process this order.</h4>
     </div>
   )
 }
+
 
 export default Paymentpage
