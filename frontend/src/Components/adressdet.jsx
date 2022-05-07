@@ -3,9 +3,10 @@
 import React from 'react'
 import axios from 'axios'
 import { useState } from 'react'
+import{Link} from "react-router-dom"
 import "./adressdet.css"
 import Checkoutpersonal from './checkoutPersonaldet'
-
+import Orderreview from './Orderreview'
 function Adressdet() {
 
 const [firstname,setfirstname]= useState()
@@ -27,6 +28,12 @@ const [country,setcountry] = useState()
    }).catch(err=>{
      console.log(err)
    })
+
+   const editadr=()=>{
+       
+<Link to ="/checkout/form" element={<Checkoutpersonal/>}></Link>
+       
+   }
   
   return (
     <div>
@@ -45,11 +52,20 @@ const [country,setcountry] = useState()
 <h4 style={{"fontWeight":"normal"}}>{state},</h4>
 <h4 style={{"fontWeight":"normal"}}>{country}</h4>
   </div>
-  <button className="deliverbut">
-      DELIVER TO NEW ADDRESS</button>
 
- 
+  <div style={{"display":"flex"}}>
+  <button className="deliverbut" onClick={()=>editadr()}>
+  <Link to ="/checkout/form" element={<Checkoutpersonal/>} style={{"textDecoration":"none","color":"black"}}
+  >DELIVER TO NEW ADDRESS</Link>
 
+      </button>
+
+      <button className="deliverbut" onClick={()=>editadr()}>
+  <Link to ="/checkout/orderrev" element={<Orderreview/>} style={{"textDecoration":"none","color":"black"}}
+  >ORDER REVIEW</Link>
+
+      </button>
+      </div>
 
     </div>
   )
