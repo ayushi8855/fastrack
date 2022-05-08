@@ -1,0 +1,37 @@
+.smart-audio-dropdown{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    background-color: #24262b;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0px 150px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    /* display: none; */
+}
+.smart-audio-dropdown img{
+    height: 200px;
+}
+.smart-audio-dropdown a{
+    text-decoration: none;
+}
+.smart-audio-dropdown ul{
+    height: 220px;
+}
+.smart-audio-dropdown ul li{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    transition: all 0.3s ease;
+}
+.smart-audio-dropdown ul li:hover{
+    color: orangered;
+}
+.true{
+    display: block;
+}
+.false{
+    display: none;
+}

@@ -1,0 +1,40 @@
+.perfumes-dropdown{
+    height: 380px;
+    display: flex;
+    background-color: #24262b;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0px 150px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    /* display: none; */
+}
+.perfumes-dropdown a{
+    text-decoration: none;
+}
+.perfumes-dropdown img{
+    height: 250px;
+}
+.perfumes-dropdown ul{
+    height: 300px;
+}
+.image{
+    text-align: center;
+}
+.perfumes-dropdown ul li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: all 0.3s ease;
+}
+.perfumes-dropdown ul li:hover{
+    color: orangered;
+}
+.true{
+    display: block;
+}
+.false{
+    display: none;
+}
