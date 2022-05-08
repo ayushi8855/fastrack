@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Checkoutpersonal from '../../Components/checkoutPersonaldet'
+import Paying from '../paying/paying'
 import "./paymentpage.css"
 
 const url1 ="https://cdn.icon-icons.com/icons2/1259/PNG/512/1495815261-jd08_84586.png"
@@ -12,6 +14,8 @@ const url5 ="https://cdn1.iconfinder.com/data/icons/credit-card-icons/512/maestr
 
 
 function Paymentpage() {
+
+   
   return (
     <div>
 
@@ -53,7 +57,10 @@ redirected to our partner site to process this order.</h4>
 </div>
 
 <div  className="paybut" >
-<button  style={{"width":"200px",'marginLeft':"200px"}} > PAY FOR YOUR ORDER</button>
+<button  style={{"width":"200px",'marginLeft':"50px"}}><Link to ="/checkout/paying" element={<Paying/>} style={{"textDecoration":"none","color":"black"}}
+  >PAY FOR YOUR ORDER</Link>
+
+</button>
 </div>
 <h5 style={{"color":"GrayText" ,"paddingLeft":"30px"}}>By placing the order, you have read and agreed the  Terms and Conditions and Privacy Policy of Fastrack.in</h5>
 </div>
