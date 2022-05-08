@@ -39,7 +39,7 @@ export const ProductPage = () => {
                         <div className="increment">
                             <button className="increment-button">-</button>
                                 <div className="quantity-number">
-                                    counter
+                                    1
                                 </div>
                             <button className="decrement-button">+</button>
                         </div>
