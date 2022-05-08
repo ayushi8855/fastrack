@@ -16,20 +16,24 @@ body{
 .row{
 	display: flex;
 	flex-wrap: wrap; 
+
     
 }
 ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
+	background-color: #1b1b1bfb;
     padding-top: 50px;
     padding-bottom: 10px;
+	bottom: 0;
+
     
 }
 .footer-col{
    width: 17%;
    padding: 0 15px;
+   height: 350px;
    
 }
 .footer-col h4{
@@ -62,6 +66,18 @@ ul{
 .footer-col ul li a:hover{
 	color: orangered;
 	
+}
+.logos{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+}
+.logos h4{
+	margin-top: 28px;
+}
+.logos img{
+	height: 20px;
 }
 .footer-col .social-links a{
 	display: inline-block;
@@ -125,9 +141,8 @@ ul{
      justify-content: space-around;
      align-items: center;
      width: 90%;
-     height: 60px;
-     margin: 10px auto;border: 2px solid greenyellow;
-
+     height: 30px;
+     margin: 10px auto;
 }
 /*responsive*/
 @media(max-width: 767px){

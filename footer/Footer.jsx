@@ -47,17 +47,17 @@ export const Footer = () => {
                           <a href="https://apps.apple.com/us/app/world-of-titan/id1351637761?ls=1"><img src="https://www.fastrack.in/wps/wcm/connect/fastrack/061ef9c8-b270-4682-b17f-6a502cf02883/untitled+%282%29.svg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-061ef9c8-b270-4682-b17f-6a502cf02883-n8IsoXP" className='store-icon' /></a>
                           <a href="https://play.google.com/store/apps/details?id=com.titancompany.tx37consumerapp&cm_sp=Homepage-_-footer-_-AndroidAppLogo"> <img src="https://www.fastrack.in/wps/wcm/connect/fastrack/eadd303c-fd71-46e5-80b8-7992a55bcc20/google-play-badge.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-eadd303c-fd71-46e5-80b8-7992a55bcc20-mX6299t" className='store-icon' /></a>
                       </div>
-                       <div>
-                           <h4>FOLLOW US ON
-                             <img src="" alt="" />
-                             <img src="" alt="" />
-                             <img src="" alt="" />
-                             <img src="" alt="" />
-                             <img src="" alt="" />
-                           </h4>
+                       <div className='logos'>
+                           <h4>FOLLOW US ON</h4>
+                           <img src ={require('./icons/facebook.png')}/>
+                           <img src ={require('./icons/pintrest.png')}/>
+                           <img src ={require('./icons/googleplus.png')}/>
+                           <img src ={require('./icons/instagram.png')}/>
+                           <img src ={require('./icons/youtube.png')}/>
+                           
                        </div>
                        <div><h4>NEED HELP?</h4></div>
-                       <div><a href="#">Click Here</a> to Chat with us on </div>
+                       <div><a href="#">Click Here</a> to Chat with us on  <img src={require('./icons/wp.png')} alt="" /></div>
                        <div className='tandd'><h6>TERMS & CONDITIONS</h6><h6>PRIVACY POLICY</h6></div>
                    </div>
                </div>
@@ -65,9 +65,17 @@ export const Footer = () => {
            </div>
            <hr className="hr"/>
            <div className='icons-row'>
-               <img src="" alt="" />
-               <img src="" alt="" />
-               
+           <img src ={require('./icons/visa.png')}/>
+           <img src ={require('./icons/mastercard.png')}/>
+           <img src ={require('./icons/paypal.png')}/>
+           <img src ={require('./icons/maestro.png')}/>
+           <img src ={require('./icons/rupay.png')}/>
+           <img src ={require('./icons/axisbanklogo.png')}/>
+           <img src ={require('./icons/icici.png')}/>
+           <img src ={require('./icons/dinersclub.png')}/>
+           <img src ={require('./icons/amaricanexp.png')}/>
+           <img src ={require('./icons/rights.png')}/>
+            
            </div>
       </footer>
   )
