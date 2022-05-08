@@ -1,0 +1,89 @@
+nav{
+    height: 120px;
+    width: 100%;
+    background-color:#1b1b1bfb ;
+    position: sticky;
+    top: 0px;
+}
+.upperSection{
+    height: 49px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftUpper{
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid greenyellow; */
+    margin-left:10%;
+}
+.leftUpper h6 {
+    color: rgb(188, 188, 188);
+}
+.rightUpper{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid greenyellow;   */
+    margin-right:10%;
+
+}
+.rightUpper h6 a{
+    color: rgb(188, 188, 188);
+    text-decoration: none;
+
+}
+hr{
+    height: 0.1px;
+    background-color: rgb(91, 91, 91);
+    border: none;
+}
+.lowerSection{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lowerSection div a{
+    transition: all 0.3s ease;
+}
+.lowerSection div a h5:hover{
+color: orangered;
+}
+.lowerLeft{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 10%;
+width: 30%;
+}
+.lowerLeft a{
+    text-decoration: none;
+}
+.lowerMiddle{
+font-style: italic;
+width: 18%;
+color: white;
+text-align: right;
+padding-right: 70px;
+}
+.lowerMiddle img{
+    height: 60px;
+    margin-left: 20%;
+}
+.lowerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+    width: 32%;
+}
+.lowerRight a{
+    text-decoration: none;
+    
+}
+
+
