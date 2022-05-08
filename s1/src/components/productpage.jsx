@@ -20,10 +20,10 @@ export const ProductPage = () => {
                     </div>
                     <div className="price-flex">
                     <div className="strike-price">
-                        MRP  $5995.00 
+                        MRP  ₹5995.00 
                     </div>
                     <div className="actual-price">
-                        OFFER PRICE $3995
+                        OFFER PRICE ₹3995
                     </div>
                     <div className="discount">
                         (33% Off)

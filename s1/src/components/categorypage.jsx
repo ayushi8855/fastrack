@@ -24,8 +24,8 @@ export const CategoryPage = () => {
                             </div>
                             <div className="productName">REFLEX SMART WATCH WITH SILICONE BLACK STRAP</div>
                             <div className="numArea">
-                                <div className="productPrice">$3995</div>
-                                <div className="productPriceStrike">$6995</div>
+                                <div className="productPrice">₹3995</div>
+                                <div className="productPriceStrike">₹6995</div>
                             </div>
                             <button className="productButton">Quick View</button>
                         </div>
@@ -38,8 +38,8 @@ export const CategoryPage = () => {
                         </div>
                         <div className="productName">Reflex Smart Watch with Silicone Blue Strap</div>
                         <div className="numArea">
-                            <div className="productPrice">$3995</div>
-                            <div className="productPriceStrike">$5995</div>
+                            <div className="productPrice">₹3995</div>
+                            <div className="productPriceStrike">₹5995</div>
                         </div>
                         <button className="productButton">Quick View</button>
                     </div>
@@ -50,8 +50,8 @@ export const CategoryPage = () => {
                         </div>
                         <div className="productName">Reflex Smart Watch with Silicone Pink Strap</div>
                         <div className="numArea">
-                            <div className="productPrice">$3995</div>
-                            <div className="productPriceStrike">$6995</div>
+                            <div className="productPrice">₹3995</div>
+                            <div className="productPriceStrike">₹6995</div>
                         </div>
                         <button className="productButton">Quick View</button>
                     </div>
@@ -62,8 +62,8 @@ export const CategoryPage = () => {
                         </div>
                         <div className="productName">Reflex Vox Digital Silicone Black Strap Watch</div>
                         <div className="numArea">
-                            <div className="productPrice">$2995</div>
-                            <div className="productPriceStrike">$5241</div>
+                            <div className="productPrice">₹2995</div>
+                            <div className="productPriceStrike">₹5241</div>
                         </div>
                         <button className="productButton">Quick View</button>
                     </div>
@@ -76,8 +76,8 @@ export const CategoryPage = () => {
                         <div className="productName">REFLEX SMART WATCH WITH SILICONE BLUE STRAP</div>
                         
                         <div className="numArea">
-                            <div className="productPrice">$3995</div>
-                            <div className="productPriceStrike">$6995</div>
+                            <div className="productPrice">₹3995</div>
+                            <div className="productPriceStrike">₹6995</div>
                         </div>
                         <button className="productButton">Quick View</button>
                     </div>
@@ -89,8 +89,8 @@ export const CategoryPage = () => {
                         <div className="productName">Silver Dial With Leather Strap Watch</div>
                         
                         <div className="numArea">
-                            <div className="productPrice">$3995</div>
-                            <div className="productPriceStrike">$6995</div>
+                            <div className="productPrice">₹2354</div>
+                            <div className="productPriceStrike">₹3435</div>
                         </div>
                         <button className="productButton">Quick View</button>
                     </div>
@@ -102,8 +102,8 @@ export const CategoryPage = () => {
                         <div className="productName">Silver Dial With Leather Strap Watch</div>
                         
                         <div className="numArea">
-                            <div className="productPrice">$3995</div>
-                            <div className="productPriceStrike">$6995</div>
+                            <div className="productPrice">₹3235</div>
+                            <div className="productPriceStrike">₹4923</div>
                         </div>
                         <button className="productButton">Quick View</button>
                     </div>
@@ -115,8 +115,8 @@ export const CategoryPage = () => {
                         <div className="productName">Rose Gold Dial Stainless Steel Strap Watch</div>
                         
                         <div className="numArea">
-                            <div className="productPrice">$3995</div>
-                            <div className="productPriceStrike">$6995</div>
+                            <div className="productPrice">₹6395</div>
+                            <div className="productPriceStrike">₹7976</div>
                         </div>
                         <button className="productButton">Quick View</button>
                     </div>
@@ -128,8 +128,8 @@ export const CategoryPage = () => {
                         <div className="productName">Street Line Ana Digi Watch With Blue Strap</div>
                         
                         <div className="numArea">
-                            <div className="productPrice">$3995</div>
-                            <div className="productPriceStrike">$6995</div>
+                            <div className="productPrice">₹1265</div>
+                            <div className="productPriceStrike">2675</div>
                         </div>
                         <button className="productButton">Quick View</button>
                     </div>
@@ -141,8 +141,8 @@ export const CategoryPage = () => {
                         <div className="productName">Once Upon a QuaranTime Watch With Grey Strap</div>
                         
                         <div className="numArea">
-                            <div className="productPrice">$3995</div>
-                            <div className="productPriceStrike">$6995</div>
+                            <div className="productPrice">₹5685</div>
+                            <div className="productPriceStrike">₹6234</div>
                         </div>
                         <button className="productButton">Quick View</button>
                     </div>
@@ -154,8 +154,8 @@ export const CategoryPage = () => {
                         <div className="productName">REFLEX SMART WATCH WITH SILICONE BLACK STRAP</div>
                         
                         <div className="numArea">
-                            <div className="productPrice">$3995</div>
-                            <div className="productPriceStrike">$6995</div>
+                            <div className="productPrice">₹3235</div>
+                            <div className="productPriceStrike">₹4565</div>
                         </div>
                         <button className="productButton">Quick View</button>
                     </div>
@@ -167,8 +167,8 @@ export const CategoryPage = () => {
                         <div className="productName">Black Belt in Brooming Watch With Yellow Dial</div>
                         
                         <div className="numArea">
-                            <div className="productPrice">$3995</div>
-                            <div className="productPriceStrike">$6995</div>
+                            <div className="productPrice">₹2156</div>
+                            <div className="productPriceStrike">₹4565</div>
                         </div>
                         <button className="productButton">Quick View</button>
                     </div>
