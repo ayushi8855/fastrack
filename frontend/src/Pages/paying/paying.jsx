@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import "./paying.css"
+import Footer from "../../Components/footer/Footer"
 const url ="https://logos-download.com/wp-content/uploads/2018/11/Fastrack_Logo-700x335.png"
 
 const url2 ="https://cdn.vectorstock.com/i/1000x1000/62/63/credit-card-icon-colored-symbol-premium-quality-vector-21626263.webp"
@@ -38,7 +39,7 @@ if(cardno1 <1000000000|| cvv1 < 301){
     <div>
         <div className='pay'>
             <div className='topbar'>
-<img  style={{"height":"120px","width":"120px","marginLeft":"-400px"}} src ={url}/>
+<img  style={{"height":"80px","width":"80px","marginLeft":"-400px","marginTop":"40px"}} src ={url}/>
 
 <h3 >Payment Done Towards Titan Company Limited</h3> 
 
@@ -52,8 +53,8 @@ if(cardno1 <1000000000|| cvv1 < 301){
  <div className='credit'>
 <img src ={url2}/>
 <div>
-    <h4 style={{"marginTop":"-1px","paddingTop":"10px"}}>CREDIT CARD/ DEBIT CARD</h4>
-    <h5 style={{"marginTop":"-10px","paddingLeft":"50px"}}>Visa,Master card,Rupay ,Maestro</h5>
+    <h4 style={{"marginTop":"1px","paddingTop":"10px"}}>CREDIT CARD/ DEBIT CARD</h4>
+    <h5 style={{"marginTop":"5px","paddingLeft":"30px"}}>Visa,Master card,Rupay ,Maestro</h5>
 </div>
 
  </div>
@@ -63,7 +64,7 @@ if(cardno1 <1000000000|| cvv1 < 301){
 <img src ={url3}/>
 <div>
     <h4 style={{"marginTop":"-1px","paddingTop":"10px"}}>NET BANKING</h4>
-    <h5 style={{"marginTop":"-10px","paddingLeft":"50px"}}>Pay with internet Banking Account</h5>
+    <h5 style={{"marginTop":"5px","paddingLeft":"30px"}}>Pay with internet Banking Account</h5>
 </div>
 
  </div>
@@ -72,7 +73,7 @@ if(cardno1 <1000000000|| cvv1 < 301){
 <img src ={url4}/>
 <div>
     <h4 style={{"marginTop":"-1px","paddingTop":"10px"}}>WALLET</h4>
-    <h5 style={{"marginTop":"-10px","paddingLeft":"50px"}}>Pay using wallet</h5>
+    <h5 style={{"marginTop":"5px","paddingLeft":"30px"}}>Pay using wallet</h5>
 </div>
 
  </div>
@@ -80,14 +81,14 @@ if(cardno1 <1000000000|| cvv1 < 301){
 </div>
 <div className='payleft'>
 
-<h4>Amount payable</h4>
-<h4> ₹ 2,195</h4>
+<h4 style={{"marginTop":"20px","paddingLeft":"30px"}}>Amount payable</h4>
+<h4 style={{"marginTop":"20px","paddingLeft":"30px"}}> ₹ 2,195</h4>
 
-<h4>Pay with Credit/Debit card</h4>
+<h4 style={{"marginTop":"20px","paddingLeft":"30px"}}>Pay with Credit/Debit card</h4>
 
 <form onSubmit={submitHandler}>
     <h5 style={{"paddingTop":"40px","marginLeft":"20px"}}>Card Number</h5>
-<input style={{"marginTop":"-20px"}} className='inputbox' type="number" id="cardno"
+<input style={{"marginTop":"10px"}} className='inputbox' type="number" id="cardno"
                     placeholder="Enter Card no *"
                     required 
                     onChange={changeHandle}
@@ -99,7 +100,7 @@ if(cardno1 <1000000000|| cvv1 < 301){
                         <div>
                         <h5 style={{"paddingTop":"40px","marginLeft":"20px"}}>Expiry date</h5>
     
-                    <input style={{"marginTop":"-20px"}} className='inputbox' type="number" id="date"
+                    <input style={{"marginTop":"10px"}} className='inputbox' type="number" id="date"
                     placeholder="MM/YY"
                     required
                     onChange={changeHandle}
@@ -108,7 +109,7 @@ if(cardno1 <1000000000|| cvv1 < 301){
                     </div>
 <div>
                     <h5 style={{"paddingTop":"40px","marginLeft":"20px"}}>CVV</h5>
-                    <input style={{"marginTop":"-20px"}} className='inputbox' type="number" id="cvv"
+                    <input style={{"marginTop":"10px"}} className='inputbox' type="number" id="cvv"
                     placeholder="* * *"
                     required
                     onChange={changeHandle}
@@ -118,7 +119,7 @@ if(cardno1 <1000000000|| cvv1 < 301){
                     </div>
 <div style={{"marginTop":"-30px"}}>                    <h5 style={{"paddingTop":"40px","marginLeft":"20px"}}>Card Holders Name</h5>
 
-                    <input style={{"marginTop":"-20px"}} className='inputbox' type="string" id="name"
+                    <input style={{"marginTop":"10px"}} className='inputbox' type="string" id="name"
                     placeholder="card hoders name *"
                     required
                     >
@@ -135,7 +136,7 @@ if(cardno1 <1000000000|| cvv1 < 301){
    
     </div>
      
-
+<Footer/>
     </div>
   )
 }

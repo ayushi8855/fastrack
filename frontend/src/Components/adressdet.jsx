@@ -6,7 +6,8 @@ import { useState } from 'react'
 import{Link} from "react-router-dom"
 import "./adressdet.css"
 import Checkoutpersonal from './checkoutPersonaldet'
-import Orderreview from './Orderreview'
+
+
 function Adressdet() {
 
 const [firstname,setfirstname]= useState()
@@ -37,8 +38,8 @@ const [country,setcountry] = useState()
   
   return (
     <div>
-        <h2>Your Address</h2>
- <h4> This is for delivery purpose plese give correct detilals*</h4>
+        <h2 >Your Address</h2>
+ <h4 style={{"marginLeft":"-20","paddingBottom":"30px"}}> This is for delivery purpose plese give correct detilals*</h4>
 
   <div className='addressbox'>
   <h3 style={{"fontWeight":"bold"}}>Contact details</h3>
@@ -61,7 +62,7 @@ const [country,setcountry] = useState()
       </button>
 
       <button className="deliverbut" onClick={()=>editadr()}>
-  <Link to ="/checkout/orderrev" element={<Orderreview/>} style={{"textDecoration":"none","color":"black"}}
+  <Link to ="/checkout/payment" element={<Checkoutpersonal/>} style={{"textDecoration":"none","color":"black"}}
   >ORDER REVIEW</Link>
 
       </button>

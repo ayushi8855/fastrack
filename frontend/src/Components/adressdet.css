@@ -4,6 +4,7 @@
     height: 400px;
     width: 400px;
     border: 2px solid black;
+    margin-left: 50px;
 }
 .addressbox h3{
     padding-left: 30px;
@@ -12,8 +13,9 @@
     padding-left: 30px;
 }
 .deliverbut{
-    width:200px;
-    font-size: 13px;
+    width:180px;
+    font-size: 12px;
+    margin-left: 50px;
 }
 .deliverbut Link{
     text-decoration: none;

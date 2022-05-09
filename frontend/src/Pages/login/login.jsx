@@ -1,7 +1,6 @@
 
 import React, { Component } from 'react'
 import "./login.css"
-const url ="https://logos-download.com/wp-content/uploads/2018/11/Fastrack_Logo-700x335.png"
 import {Link, Navigate, Route, Routes} from 'react-router-dom';
 import { BrowserRouter,useNavigate} from "react-router-dom"
 
@@ -13,6 +12,7 @@ import { UserContext } from '../../Context/username';
 
 
 function Login(){
+  const url ="https://logos-download.com/wp-content/uploads/2018/11/Fastrack_Logo-700x335.png"
 
  const {isAuth,toggleAuth}= useContext(AuthContext)
  const {username,username11} = useContext(UserContext)

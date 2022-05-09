@@ -15,7 +15,8 @@
     "navigate": "^0.3.6",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "require": "^2.4.20"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",

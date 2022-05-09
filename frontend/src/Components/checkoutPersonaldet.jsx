@@ -134,7 +134,6 @@ console.log(err)
  </form>
  
  {authent?<Adressdet/>:""}
- <hr/>
   
  </div>
     
