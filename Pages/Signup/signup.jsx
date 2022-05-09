@@ -2,10 +2,10 @@ import React from 'react';
 import {useState} from 'react'
 import axios from 'axios';
 import {useNavigate} from 'react-router-dom';
-import "./signup.css"
+
 const url ="https://logos-download.com/wp-content/uploads/2018/11/Fastrack_Logo-700x335.png"
 
-
+import "./signup.css"
 
 
  function Signup() {
@@ -27,7 +27,7 @@ const url ="https://logos-download.com/wp-content/uploads/2018/11/Fastrack_Logo-
      e.preventDefault();
   
 
- axios.post("https://fastrackbackend.herokuapp.com/auth",data1)
+ axios.post("http://localhost:5000/auth",data1)
  
  .then(response =>{
      alert(response.data)
