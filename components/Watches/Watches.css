@@ -1,0 +1,49 @@
+.watches-dropdown{
+    height: 500px;
+    display: flex;
+    background-color: #24262b;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 50px 150px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    /* display: none; */
+ 
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+.watches-dropdown img , ul{
+    height: 400px;
+    
+}
+.watches-dropdown ul li{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    
+}
+.watches-dropdown ul li:hover{
+    color: orangered;
+}
+.watches-dropdown ul li img{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+margin: 0px 10px;
+}
+.watches{
+    position: relative;
+}
+.true{
+    display: block;
+
+}
+.false{
+    display: none;
+}

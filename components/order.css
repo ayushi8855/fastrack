@@ -1,0 +1,51 @@
+.image{
+    width:90%;
+    margin: 5px;
+    margin-bottom:40px ;
+}
+.hfive{
+    border: 1px solid gray;
+    padding: 10px;
+    width:40px
+}
+.review{
+    text-align: left;
+   
+    font-family:  "Work Sans",sans-serif;
+    color: #222;
+    font-weight: bold;
+    font-size: 17px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+.order_reveiw{
+    width:70%;
+    margin: auto;
+}
+.title{
+    margin-top: 50px;
+    font-size: 17px;
+    font-family:  "Work Sans",sans-serif;
+    color: #222;
+    font-weight: bold;
+}
+.pay_btn{
+    color:white;
+    background-color: #222;
+    height: 50px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.name{
+   
+        font-family: "Roboto",sans-serif;
+        font-weight: normal;
+        color: #222;
+        letter-spacing: 2px;
+        text-rendering: optimizeLegibility
+    
+}
+.htwo{
+    font-weight: bold;
+}

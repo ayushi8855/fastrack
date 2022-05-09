@@ -1,0 +1,126 @@
+.tow{
+    /* border:1px solid black; */
+    text-align: left;
+    
+    color: #222;
+    font-weight: bold;
+    font-size: 17px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+.carthead{
+    font-family:  "Work Sans",sans-serif;
+    color: #222;
+    font-weight: bold;
+    font-size: 29px;
+}
+.itemimg{
+    width: 35%;
+    height: 35%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+.itemdiv{
+    display: flex;
+    width: 100%;
+    font-weight: bolder;
+    color: #000;
+    /* font-family:  "Work Sans",sans-serif; */
+}
+.price{
+    display: flex;
+}
+.btnmove{
+    border: none;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    background-color: #f5f5f5;
+}
+.qty{
+    border: none;
+    background-color: white;
+    font-size: 27px;
+}
+.plus{
+    padding-top: 5px;
+    text-align: center;
+    border: 1px solid black;
+    width:35px;
+    height:35px
+
+}
+.home{
+    border: 1px solid black;
+    height: 60px;
+}
+.text{
+    margin-top: 50px;
+}
+.classp{
+    margin-left: 3px;
+    margin-right: 3px;
+    color: gray;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.dis{
+    font-weight: bold;
+    color: red;
+}
+.col1{
+    color: grey;
+}
+ .inbtn{
+width: 100px;
+height: 50px;
+margin-bottom: 50px;
+}
+.order{
+    font-size: 30px;
+    font-weight: bold;
+}
+.enter_voucher{
+    height: 50px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    border-top:0.5px solid rgb(199, 194, 194) ;
+    border-left:0.5px solid rgb(199, 194, 194) ;
+    border-right:0.5px solid rgb(199, 194, 194) ;
+    margin-bottom: 30px;
+}
+.enter_promo{
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    color: rgb(162, 159, 159);
+    background-color: white;
+    border-bottom:0.5px solid rgb(199, 194, 194) ;
+}
+.promo{
+    height: 50px;
+    border: none;
+    width:62%;
+    background-color: #f5f5f5;
+}
+.promobtn{
+    height:50px;
+    width:28%;
+    border: 0.5px solid gray;
+    background-color: white;
+    margin-left: -4px;
+    margin-bottom: 30px;
+}
+.totorder{
+    font-family: "Roboto",sans-serif;
+    color: #222;
+    letter-spacing: 2px;
+    text-rendering: optimizeLegibility
+}
+.save{color: red;
+margin-bottom: 80px;
+margin-top: 10px;
+letter-spacing: 2px;
+text-rendering: optimizeLegibility
+}
