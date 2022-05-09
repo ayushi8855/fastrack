@@ -63,8 +63,8 @@ redirected to our partner site to process this order.</h4>
 
 
 <div  style={{"marginTop":"20px"}} className='paymentbox'>
-<h4 style={{"marginTop":"20px"}}>CREDIT CARD / DEBIT CARD / NET BANKING / WALLET</h4>
-<h4 style={{"color":"greyText","marginTop":"20px"}}>Use your Credit Cards, Debit Cards, Wallets or Netbanking</h4>
+<h4 style={{"marginTop":"20px","color":"black"}}>CREDIT CARD / DEBIT CARD / NET BANKING / WALLET</h4>
+<h4 style={{"color":"black","marginTop":"20px"}}>Use your Credit Cards, Debit Cards, Wallets or Netbanking</h4>
 <div className='creditcards'>
 <img src ={url1}/>
 <img  style ={{"width":"60px","height":"70px","marginTop":"40px"}} src ={url2}/>
@@ -116,7 +116,7 @@ redirected to our partner site to process this order.</h4>
     <h4 style={{"paddingLeft":"30px","paddingTop":"40px"}}>YOU PAY</h4>
     <h4 style={{"paddingLeft":"30px","paddingTop":"40px"}}>  ₹  2195</h4>
 </div>
-<h9 style={{"paddingLeft":"300px"}}>INCLUSIVE OF ALL TAXES*</h9>
+<h4 style={{"paddingLeft":"200px","paddingTop":"30px"}}>INCLUSIVE OF ALL TAXES*</h4>
 </div>
 <hr/>
 
