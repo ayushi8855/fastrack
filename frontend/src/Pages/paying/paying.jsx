@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import "./paying.css"
-import Footer from "../../Components/footer/Footer"
+import Footer from "../../Components/footeres/Footer"
 const url ="https://logos-download.com/wp-content/uploads/2018/11/Fastrack_Logo-700x335.png"
 
 const url2 ="https://cdn.vectorstock.com/i/1000x1000/62/63/credit-card-icon-colored-symbol-premium-quality-vector-21626263.webp"
@@ -11,6 +11,7 @@ const url4 ="https://png.pngtree.com/png-vector/20190710/ourlarge/pngtree-wallet
 
 
 function Paying() {
+
     const [cardno1,setcardno] = useState(0)
 const [cvv1,setcvv] = useState(0)
 

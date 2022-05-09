@@ -2,7 +2,7 @@
 import "./checkout.css"
 import React from 'react'
 import Checkoutpersonal from "../../Components/checkoutPersonaldet"
-import Footer from "../../Components/footer/Footer.jsx"
+import Footer from "../../Components/footeres/Footer.jsx"
 
 
  const url="https://lh3.googleusercontent.com/FDJs4aT3KRBcYSqbbIcVPkPZp8lzDxGqgNu3a6T_rmEVbkdVBdTbagmeCMeVf6Y2Qu9qFI30youvL-pyuu0x0rB3su5XLIa_wsQcQ_pBpw"
