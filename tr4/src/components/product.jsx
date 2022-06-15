@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
+import { useParams, useSearchParams } from "react-router-dom"
 import axios from "axios"
 import "./product.css";
 
@@ -10,6 +10,7 @@ export const Product=()=>{
     // id = id.split(":")[1]
     console.log(id)
 
+    console.log(useSearchParams("id"))
 
     const [data,setData] = useState({})
 

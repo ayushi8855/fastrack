@@ -6,6 +6,7 @@ import "./categorypage.css";
 export const Category=()=> {
 
   const [naveen, setNaveen] = useState([])
+
   
     useEffect(()=>{
   
@@ -47,7 +48,7 @@ export const Category=()=> {
                     {
                       
                     }
-                    <Link className='Buttonlink'  to={`/product/${e._id}`}> Quick View</Link> 
+                    <Link className='Buttonlink' to={`/product/${e._id}`}> Quick View</Link> 
                    
                     
                   </div>
